@@ -52,6 +52,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btn = (Button) findViewById(R.id.button2);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+                Intent myIntent = new Intent(Intent.ACTION_SEND);
+                myIntent.setType("text/plain");
+                String shareBody = "your body here";
+                String shareSub = "your subject here";
+                myIntent.putExtra(Intent.EXTRA_SUBJECT, shareBody);
+                myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(myIntent, "share using"));
+
+            }
+        });
+        }
+
+
 
     }
-}
+

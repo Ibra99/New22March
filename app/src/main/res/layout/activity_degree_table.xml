@@ -4,9 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ibrahimalhassan.myapplication.ccit">
+    tools:context="com.example.ibrahimalhassan.myapplication.degreeTable">
 
-    "
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/neww"
+        tools:layout_editor_absoluteX="dp" />
 </android.support.constraint.ConstraintLayout>

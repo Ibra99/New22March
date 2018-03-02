@@ -21,6 +21,7 @@
         <activity android:name=".ccit" />
         <activity android:name=".deanship" />
         <activity android:name=".calendar" />
+        <activity android:name=".degreeTable"></activity>
     </application>
 
 </manifest>
