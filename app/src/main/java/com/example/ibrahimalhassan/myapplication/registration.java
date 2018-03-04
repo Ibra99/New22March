@@ -14,11 +14,11 @@ public class registration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-        btn=(Button) findViewById(R.id.button3);
+        btn=(Button) findViewById(R.id.button01);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(registration.this, degreeTable.class);
+                Intent i = new Intent(registration.this, amadatalqabol.class);
                 startActivity(i);
             }
         });

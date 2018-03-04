@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Ibrahim">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +23,9 @@
         <activity android:name=".ccit" />
         <activity android:name=".deanship" />
         <activity android:name=".calendar" />
-        <activity android:name=".degreeTable"></activity>
+        <activity android:name=".degreeTable" />
+        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".amadatalqabol"></activity>
     </application>
 
 </manifest>
