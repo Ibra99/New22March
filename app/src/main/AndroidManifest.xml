@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:theme="@style/Ibrahim">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,12 +20,30 @@
         </activity>
         <activity android:name=".registration" />
         <activity android:name=".affairs" />
-        <activity android:name=".ccit" />
         <activity android:name=".deanship" />
         <activity android:name=".calendar" />
         <activity android:name=".degreeTable" />
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".amadatalqabol"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".amadatalqabol" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".alhdfooaladafh" />
+        <activity android:name=".alfsalMnAlgamah" />
+        <activity
+            android:name=".Atgdyrat"
+            android:label="@string/title_activity_atgdyrat" />
+        <activity android:name=".athwellMnKleeh" />
+        <activity android:name=".computer" />
+        <activity android:name=".alLaahALdahleh" />
+        <activity android:name=".alhgogAltlabyh" />
+        <activity android:name=".alaeehaaltadibyah" />
+        <activity android:name=".KKshfHdoor" />
+        <activity android:name=".ALtdreebALmedany" />
+        <activity android:name=".DleeelALtdreepALmedany" />
+        <activity android:name=".taqyeemjahahtadribyah" />
+        <activity android:name=".kotatadreeb" />
+        <activity android:name=".hodhor" />
+        <activity android:name=".mubashra" />
+        <activity android:name=".ALkooothALdrasyh"></activity>
     </application>
 
 </manifest>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/shaqra"
     tools:context="com.example.ibrahimalhassan.myapplication.MainActivity"
 
     >
@@ -18,56 +19,57 @@
 
 
    <Button
-       android:id="@+id/button02"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+       android:id="@+id/button0002"
+       android:layout_width="250dp"
+       android:layout_height="40dp"
 
-       android:layout_alignParentEnd="true"
-       android:layout_alignParentRight="true"
-       android:layout_alignParentTop="true"
-       android:layout_marginEnd="18dp"
-       android:layout_marginRight="18dp"
-       android:layout_marginTop="86dp"
+       android:layout_above="@+id/button03"
+       android:layout_alignLeft="@+id/button03"
+       android:layout_alignStart="@+id/button03"
+       android:layout_marginBottom="42dp"
        android:text="الحذف والاضافة"
        tools:layout_editor_absoluteX="25dp" />
 
 
    <Button
        android:id="@+id/button01"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignEnd="@+id/button02"
-       android:layout_alignParentTop="true"
-       android:layout_alignRight="@+id/button02"
-       android:layout_marginTop="18dp"
+       android:layout_width="250dp"
+       android:layout_height="40dp"
+
+       android:layout_above="@+id/button0002"
+       android:layout_alignLeft="@+id/button0002"
+       android:layout_alignStart="@+id/button0002"
+       android:layout_marginBottom="40dp"
        android:text="شروط القبول بجامعة شقراء" />
 
    <Button
        android:id="@+id/button03"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_above="@+id/button04"
-       android:layout_alignEnd="@+id/button01"
-       android:layout_alignRight="@+id/button01"
-       android:layout_marginBottom="24dp"
+       android:layout_width="250dp"
+       android:layout_height="40dp"
+
+       android:layout_alignLeft="@+id/button04"
+       android:layout_alignStart="@+id/button04"
+       android:layout_centerVertical="true"
        android:text="الفصل من الجامعة" />
 
    <Button
        android:id="@+id/button04"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_alignLeft="@+id/button03"
-       android:layout_alignStart="@+id/button03"
-       android:layout_centerVertical="true"
+       android:layout_width="250dp"
+
+       android:layout_height="40dp"
+       android:layout_above="@+id/button05"
+       android:layout_alignLeft="@+id/button05"
+       android:layout_alignStart="@+id/button05"
+       android:layout_marginBottom="33dp"
        android:text="التقديرات" />
 
-    <Button
-        android:id="@+id/button05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/button02"
-        android:layout_alignRight="@+id/button02"
-        android:layout_below="@+id/button04"
-        android:layout_marginTop="31dp"
-        android:text="التحويل من كلية الي اخرى" />
+   <Button
+       android:id="@+id/button05"
+       android:layout_width="250dp"
+       android:layout_height="40dp"
+
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="58dp"
+       android:text="التحويل من كلية الي اخرى" />
 </RelativeLayout>

@@ -6,61 +6,67 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class registration extends AppCompatActivity {
-
+public class ALtdreebALmedany extends AppCompatActivity {
     Button btn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_registration);
-        btn=(Button) findViewById(R.id.button01);
+        setContentView(R.layout.activity_altdreeb_almedany);
+        btn=(Button) findViewById(R.id.button3);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(registration.this, amadatalqabol.class);
+                Intent i = new Intent(ALtdreebALmedany.this, DleeelALtdreepALmedany.class);
                 startActivity(i);
-            }
-        });
-        btn=(Button) findViewById(R.id.button0002);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(registration.this,alhdfooaladafh.class);
-                startActivity(i);
+
+
+
             }
         });
 
-        btn=(Button) findViewById(R.id.button03);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(registration.this,alfsalMnAlgamah.class);
-                startActivity(i);
-            }
-        });
 
-        btn=(Button) findViewById(R.id.button04);
+        btn=(Button) findViewById(R.id.button5);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(registration.this,Atgdyrat.class);
+                Intent i=new Intent(ALtdreebALmedany.this,taqyeemjahahtadribyah.class);
                 startActivity(i);
             }
         });
 
 
-
-
-        btn=(Button) findViewById(R.id.button05);
+        btn=(Button) findViewById(R.id.button6);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(registration.this,athwellMnKleeh.class);
+                Intent i=new Intent(ALtdreebALmedany.this,kotatadreeb.class);
                 startActivity(i);
             }
         });
+
+
+        btn=(Button) findViewById(R.id.button7);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(ALtdreebALmedany.this,hodhor.class);
+                startActivity(i);
+            }
+        });
+
+
+
+        btn=(Button) findViewById(R.id.button8);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(ALtdreebALmedany.this,mubashra.class);
+                startActivity(i);
+            }
+        });
+
 
 
     }
+
 }

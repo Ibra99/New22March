@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn=(Button) findViewById(R.id.ccit);
+        btn=(Button) findViewById(R.id.computer);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,ccit.class);
+                Intent i=new Intent(MainActivity.this,computer.class);
                 startActivity(i);
             }
         });

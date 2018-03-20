@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/computer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ibrahimalhassan.myapplication.computer">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_alignLeft="@+id/button0002"
+        android:layout_alignStart="@+id/button0002"
+        android:layout_below="@+id/button0002"
+        android:layout_marginTop="75dp"
+        android:text="اللائحة الداخلية للشؤون التعليمية بكلية الحاسب الآلي"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button0002"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="التدريب الميداني  "
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:text="الخطه الدراسيه" />
+
+
+</RelativeLayout>

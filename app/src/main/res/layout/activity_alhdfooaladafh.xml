@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ibrahimalhassan.myapplication.alhdfooaladafh">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الحذف والإضافة:
+\n
+\n
+
+يمكن لطلاب تعديل تسجيله بإضافة او حذف مقررات خلال الاسبوع الاول من الفصل الدراسي او الصيفي، او حذف بعض او كل المقررات خلال الاسبوعين الاولين من الفصل الدراسي وفق للضوابط التالية:
+\n
+
+اولا: شروط الحذف:
+\n
+
+ـ ان لا يقل عدد الساعات الدراسية عن الحد الادنى للعبء الدراسي المسموح به للتسجيل.
+\n
+
+ـ إذا كان المقرر المراد حذفه متطلبا مصاحبا مع مقرر اخر، فلا يحق للطالب حذفه الا بحذف المقررين معا.
+\n
+
+ـ ان لا يكون الطالب في السنة التحضيرية والا يكون الطالب في المستوى الاول في الكليات الاخرى.
+\n
+\n
+
+ثانيا: شروط الإضافة:
+\n
+
+- عدم وجود تعارض في الجدول الدراسي.
+\n
+
+- ان يكون المقرر ضمن الخطة الدراسية او المقررات الاختيارية او الحرة المعتمدة ان وجدت.
+\n
+
+- توفر مقاعد في الشعبة المطلوبة.
+\n
+
+- عدم وجود متطلب سابق.
+\n
+
+- عدم تجاوز الحد الاعلى للعبء الدراسي المسموح به للتسجيل وفق للمعدل التراكمي للطالب.
+\n
+
+- الا يكون الطالب في السنه التحضيرية والا يكون الطالب في المستوى الاول في الكليات الاخرى.
+
+"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="189dp" />
+</ScrollView>
