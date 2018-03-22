@@ -81,16 +81,5 @@
 
         android:text="مشاركة" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/affair"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="19dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginStart="55dp" />
-
 </RelativeLayout>
 
